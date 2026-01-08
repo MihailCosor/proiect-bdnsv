@@ -1,0 +1,7 @@
+pymongo
+redis
+faker
+streamlit
+pandas
+plotly
+watchdog
