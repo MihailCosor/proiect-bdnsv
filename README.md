@@ -38,7 +38,7 @@ Sistemul separa calea de scriere (Write Path) de cea de citire (Read Path):
 2.  **Read Path (Complexitate O(1)):** Client -> App -> Redis List (Fetch IDs) -> Redis Hash (Fetch Content) -> Return.
 
 ### 2.3 Stack Software
-* **Limbaj:** Python 3.9 (Biblioteci: `redis-py`, `pymongo`, `streamlit`, 'faker`).
+* **Limbaj:** Python 3.9 (Biblioteci: `redis-py`, `pymongo`, `streamlit`, `faker`).
 * **Database:** MongoDB 6.0.
 * **Cache:** Redis 7.0.
 * **OS:** Linux Alpine (in containere) pentru a fi lightweight.
@@ -212,7 +212,7 @@ streamlit run src/dashboard.py
 
 ### Demo
 
-#### Video Demo: https://youtu.be/YourVideoLinkHere
+#### Video Demo: https://drive.google.com/file/d/1pyaOWn9uBJPgezxCtf8dU-Had_0t0Ra2/view?usp=sharing
 
 #### Screenshot Dashboard
 
